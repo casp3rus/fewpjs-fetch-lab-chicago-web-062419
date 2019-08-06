@@ -6,7 +6,8 @@ const spies = require( 'chai-spies' );
 chai.use( spies );
 
 
-describe( "index.js", () => {
+describe( "index.js", () => { 
+  
   describe( 'getPosts()', () => {
 
     beforeEach( () => {
